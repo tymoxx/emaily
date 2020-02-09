@@ -1,7 +1,8 @@
 import React from 'react';
 import { BrowserRouter, Route } from 'react-router-dom';
+import 'materialize-css/dist/css/materialize.min.css'
 
-const Header = () => {return <h2>Header</h2> };
+import Header from "./Header";
 const Dashbord = () => {return <h2>Dashbord</h2> };
 const ServeyNew = () => {return <h2>ServeyNew</h2> };
 const Landing = () => {return <h2>Landing</h2> };
