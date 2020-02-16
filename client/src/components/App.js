@@ -3,11 +3,11 @@ import { BrowserRouter, Route } from 'react-router-dom';
 import 'materialize-css/dist/css/materialize.min.css'
 import {connect} from 'react-redux';
 import * as actions from '../actions';
+import Landing from './Landing';
 
 import Header from "./Header";
 const Dashbord = () => {return <h2>Dashbord</h2> };
 const ServeyNew = () => {return <h2>ServeyNew</h2> };
-const Landing = () => {return <h2>Landing</h2> };
 
 class App extends Component {
     componentDidMount() {
