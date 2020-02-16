@@ -8,9 +8,9 @@ class Header extends Component {
             case null:
                 return '...';
             case false:
-                return 'Logged OUT';
+                return <li><a href='/auth/google'>Login with Google</a></li>
             default:
-                return 'Logged In';
+                return <li><a href='Logout'>Logout</a></li>
         }
     }
 
